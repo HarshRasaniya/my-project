@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in page</title>
+    <style>
+        *{
+            text-align: center;
+        }
+        body{
+            background-image: url(https://img.freepik.com/free-photo/shopping-bag-cart_23-2148879372.jpg?semt=ais_hybrid);
+            background-size: cover;
+        }
+        h1{
+            color: rgb(249, 45, 4);
+        }
+        .container{
+            height: 400px;
+            width: 800px;
+            font-size: 20px;
+            background-color: rgb(0, 0, 0);
+            opacity: 0.7;
+            color: brown;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border: 5px solid brown;
+            border-radius: 50%;
+        }
+        .sig{
+            transition: all 0.5s ease-in-out;
+        }
+        .sig:hover{
+            transition-delay: 0s;
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+        }
+        .appot{
+            /* height: 300px;
+            width: 400px; */
+            font-size: 20px;
+            color: brown;
+        }
+        .or{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    </style>
+</head>
+<body>
+        <div class="container"><br>
+
+            <div class="appot"><br>
+                <h1>APP ID</h1>
+                <div>
+                    <form id="Sign up form">
+                        <label for="ID">ID :- </label>
+                        <input type="text" id="ID" name="ID" placeholder="Enter your APP ID"><br><br>
+                        <label for="password"> password</label>
+                        <input type="password" name="password" id="password" placeholder="password"><br><br>
+                    </form>
+                </div>
+            </div>
+
+            <div style="height: 200px;width: 200px;" class="or">
+                OR
+            </div>
+
+            
+            <div>
+                <h1>SIGN UP</h1>
+                <form id="Sign up form">
+                    <label for="name">NAME :- </label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+                    <label for="Contact">Contact No. :- </label>
+                    <input type="number" id="Contact"  placeholder="0123456789"><br><br>
+                    <label for="Email">Email ID :- </label>
+                    <input type="email" id="Email"  placeholder="abc46@gmail.com"><br><br>
+                    <label for="password"> password</label>
+                    <input type="password" name="password" id="password" placeholder="password"><br><br>
+                    <button class="sig"> SIGN UP</button>
+                </form>
+            </div>
+        </div>
+        
+</body>
+</html>
